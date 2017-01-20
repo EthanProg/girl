@@ -1,3 +1,12 @@
 spring:
   profiles:
     active: pro
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.110.1.178:3306/MRTDB01
+    username: rtuser
+    password: rtuser
+  jpa:
+    hibernate:
+      ddl-auto:create
+    show-sql: true
