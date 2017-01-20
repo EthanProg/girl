@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Value("${cupSize}")
-    private String cupSize;
-
-    @Value("${age}")
-    private int age;
-
-    @Value("${content}")
-    private String content;
+//    @Value("${cupSize}")
+//    private String cupSize;
+//
+//    @Value("${age}")
+//    private int age;
+//
+//    @Value("${content}")
+//    private String content;
 
     @Autowired
     private GirlProperties girlProperties;
