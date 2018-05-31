@@ -3,7 +3,7 @@ spring:
     active: pro
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.110.1.178:3306/MRTDB01
+    url: jdbc:mysql://10.110.1.178:8066/MRTDB
     username: rtuser
     password: rtuser
   jpa:
