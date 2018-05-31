@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 1111
   context-path: /girl
 
 girl:
@@ -8,3 +8,9 @@ girl:
   context: "cupSize: ${cupSize}, age: ${age}"
 
 
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
