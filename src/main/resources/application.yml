@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: pro
+    active: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.110.1.178:8066/MRTDB
