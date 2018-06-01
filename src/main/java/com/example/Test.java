@@ -1,5 +1,6 @@
 package com.example;
 
+import com.alibaba.druid.util.StringUtils;
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 
@@ -25,6 +26,8 @@ public class Test {
         long endTime = System.nanoTime();   // 获取结束时间
 
         System.out.println("程序运行时间： " + (endTime - startTime) + "纳秒");
+
+        StringUtils.isEmpty("");
 
     }
 }
