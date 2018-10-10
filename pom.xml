@@ -101,6 +101,27 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>io.zipkin.reporter2</groupId>
+			<artifactId>zipkin-sender-kafka11</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.zipkin.brave/brave-instrumentation-dubbo-rpc -->
+		<dependency>
+			<groupId>io.zipkin.brave</groupId>
+			<artifactId>brave-instrumentation-dubbo-rpc</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.alibaba/dubbo-rpc-rest -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo-rpc-rest</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
