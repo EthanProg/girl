@@ -124,6 +124,7 @@
 
 	</dependencies>
 
+	<!-- ss -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
